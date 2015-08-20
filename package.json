@@ -3,11 +3,23 @@
   "version":"0.0.1",
   "description":"ffmpeg en nodejs",
   "author":"Juan David Echeverry Rivera",
+  "maintainers": [
+    "j.echeverry.udla.edu.co"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juandav/ffmpeg.io.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "hls"
+  ],
   "preferGlobal": "true", 
   "dependencies":{
   },
   "bin": {
     "ffmpeg.io": "./bin/ffmpeg.io.js"
   },
- "main": "./lib/ffmpeg.io.js"
+ "main": "./lib/ffmpeg.io.js",
+ "license": "MIT",
 }

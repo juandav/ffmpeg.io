@@ -7,10 +7,14 @@
 npm install --save ffmpeg.io
 ```
 
+## Usage
+```js
+var iof = require('ffmpeg.io')
+```
+
 ## Change Quality
 
 ```js
-var iof = require('ffmpeg.io')
 var json = {
    input: './myVideo.mp4',
    format: '640x360', 
@@ -19,7 +23,7 @@ var json = {
 iof.changerQuality(json, function(value){
   //value is true or false
   console.log(value)
-})
+});
 ```
 ## Generate Hls
 
@@ -32,5 +36,5 @@ var json = {
 iof.generateHls(json, function(value){
   //value is true or false
   console.log(value);
-})
+});
 ```
