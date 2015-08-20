@@ -1,0 +1,13 @@
+{
+  "name":"ffmpeg.io",
+  "version":"0.0.1",
+  "description":"ffmpeg en nodejs",
+  "author":"Juan David Echeverry Rivera",
+  "preferGlobal": "true", 
+  "dependencies":{
+  },
+  "bin": {
+    "ffmpeg.io": "./bin/ffmpeg.io.js"
+  },
+ "main": "./lib/ffmpeg.io.js"
+}
