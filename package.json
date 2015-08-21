@@ -1,25 +1,28 @@
 {
-  "name":"ffmpeg.io",
-  "version":"0.0.1",
-  "description":"ffmpeg en nodejs",
-  "author":"Juan David Echeverry Rivera",
-  "maintainers": [
-    "j.echeverry.udla.edu.co"
-  ],
+  "name": "ffmpeg.io",
+  "version": "0.0.1",
+  "description": "A quick way to use ffmpeg command",
+  "main": "./lib/ffmpeg.io.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/juandav/ffmpeg.io.git"
+    "url": "git+https://github.com/juandav/ffmpeg.io.git"
   },
   "keywords": [
     "ffmpeg",
-    "hls"
+    "hls",
+    "video",
+    "splash"
   ],
-  "preferGlobal": "true", 
-  "dependencies":{
+  "author": "Juan David Echeverry Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juandav/ffmpeg.io/issues"
   },
-  "bin": {
-    "ffmpeg.io": "./bin/ffmpeg.io.js"
-  },
- "main": "./lib/ffmpeg.io.js",
- "license": "MIT",
+  "homepage": "https://github.com/juandav/ffmpeg.io#readme"
 }
