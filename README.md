@@ -25,6 +25,19 @@ iof.changerQuality(json, function(value){
   console.log(value)
 });
 ```
+
+##Repack
+```js
+var json = {
+   input: './mivideo.mp4',
+   output: './mivideo_repack.mp4'
+}
+iof.repack(json, function(value){
+  //value is true or false
+  console.log(value)
+});
+```
+
 ## Generate Hls
 
 ```js
