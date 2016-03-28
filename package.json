@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg.io",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A quick way to use ffmpeg command",
   "main": "./lib/ffmpeg.io.js",
   "directories": {
